@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="CronbergTemplateExtension.183661db-8fc5-493c-a036-790adae5a400" Version="1.0" Language="en-US" Publisher="SCCMKURSTA" />
+        <Identity Id="CronbergTemplateExtension.183661db-8fc5-493c-a036-790adae5a400" Version="1.1" Language="en-US" Publisher="SCCMKURSTA" />
         <DisplayName>CronbergTemplateExtension</DisplayName>
-        <Description xml:space="preserve">Michell Cronbergs templates including .NET 6 console app with a classic template (sync and async)</Description>
+        <Description xml:space="preserve">Templates including .NET 6 console app with a classic template (sync and async)</Description>
+        <MoreInfo>https://github.com/devcronberg/CronbergTemplates</MoreInfo>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
