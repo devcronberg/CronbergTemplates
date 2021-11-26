@@ -49,10 +49,17 @@
     <Compile Include="CronbergTemplateExtensionPackage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ProjectTemplates\ClassicConsoleAppNet6.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="ClassicConsoleAppNet6.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <Content Include="ProjectTemplates\ClassicConsoleAppNet6.zip">
+    <None Include="ClassicConsoleAppNet6_Async.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="ProjectTemplates\ClassicConsoleAppNet6_Async.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

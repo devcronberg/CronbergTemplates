@@ -1,9 +1,9 @@
 ﻿// Note - project is using implict and global usings 
-namespace ClassicConsoleAppNet6
+namespace ClassicConsoleAppNet6_Async
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             
         }

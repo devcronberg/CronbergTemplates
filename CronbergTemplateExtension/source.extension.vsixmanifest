@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="CronbergTemplateExtension.183661db-8fc5-493c-a036-790adae5a400" Version="1.0" Language="en-US" Publisher="SCCMKURSTA" />
         <DisplayName>CronbergTemplateExtension</DisplayName>
-        <Description xml:space="preserve">Michell Cronbergs templates including a .NET 6 console app with a classic template</Description>
+        <Description xml:space="preserve">Michell Cronbergs templates including .NET 6 console app with a classic template (sync and async)</Description>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
@@ -19,5 +19,6 @@
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
         <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\ClassicConsoleAppNet6.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\ClassicConsoleAppNet6_Async.zip" />
     </Assets>
 </PackageManifest>
