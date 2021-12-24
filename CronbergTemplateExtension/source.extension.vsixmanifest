@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="CronbergTemplateExtension.183661db-8fc5-493c-a036-790adae5a400" Version="1.1" Language="en-US" Publisher="SCCMKURSTA" />
+        <Identity Id="CronbergTemplateExtension.183661db-8fc5-493c-a036-790adae5a400" Version="1.2" Language="en-US" Publisher="SCCMKURSTA" />
         <DisplayName>CronbergTemplateExtension</DisplayName>
         <Description xml:space="preserve">Templates including .NET 6 console app with a classic template (sync and async)</Description>
         <MoreInfo>https://github.com/devcronberg/CronbergTemplates</MoreInfo>
@@ -21,5 +21,7 @@
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
         <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\ClassicConsoleAppNet6.zip" />
         <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\ClassicConsoleAppNet6_Async.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\ClassicConsoleAppNet6_ConfigLog.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\ClassicConsoleAppNet6_DI.zip" />
     </Assets>
 </PackageManifest>
