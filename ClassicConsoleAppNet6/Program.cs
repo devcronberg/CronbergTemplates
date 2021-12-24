@@ -1,4 +1,4 @@
-﻿// Note - project is using implict and global usings 
+﻿// Note - the project is using implicit and global usings 
 namespace ClassicConsoleAppNet6
 {
     internal class Program
