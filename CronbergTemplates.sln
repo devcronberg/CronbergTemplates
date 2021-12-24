@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronbergTemplateExtension",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassicConsoleAppNet6_Async", "ClassicConsoleAppNet6_Async\ClassicConsoleAppNet6_Async.csproj", "{8A46E183-1C84-492D-A7B6-8D248E1FCCC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicConsoleAppNet6_DI", "ClassicConsoleAppNet6_DI\ClassicConsoleAppNet6_DI.csproj", "{A245F998-05CF-4CB7-83C2-A2D5C869ECC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassicConsoleAppNet6_DI", "ClassicConsoleAppNet6_DI\ClassicConsoleAppNet6_DI.csproj", "{A245F998-05CF-4CB7-83C2-A2D5C869ECC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicConsoleAppNet6_ConfigLog", "ClassicConsoleAppNet6_ConfigLog\ClassicConsoleAppNet6_ConfigLog.csproj", "{1CE1CCB9-5EB4-48C5-AE98-4AD2F7E0AC6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{A245F998-05CF-4CB7-83C2-A2D5C869ECC7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A245F998-05CF-4CB7-83C2-A2D5C869ECC7}.Release|x86.ActiveCfg = Release|Any CPU
 		{A245F998-05CF-4CB7-83C2-A2D5C869ECC7}.Release|x86.Build.0 = Release|Any CPU
+		{1CE1CCB9-5EB4-48C5-AE98-4AD2F7E0AC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE1CCB9-5EB4-48C5-AE98-4AD2F7E0AC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE1CCB9-5EB4-48C5-AE98-4AD2F7E0AC6E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1CE1CCB9-5EB4-48C5-AE98-4AD2F7E0AC6E}.Debug|x86.Build.0 = Debug|Any CPU
+		{1CE1CCB9-5EB4-48C5-AE98-4AD2F7E0AC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE1CCB9-5EB4-48C5-AE98-4AD2F7E0AC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE1CCB9-5EB4-48C5-AE98-4AD2F7E0AC6E}.Release|x86.ActiveCfg = Release|Any CPU
+		{1CE1CCB9-5EB4-48C5-AE98-4AD2F7E0AC6E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
